@@ -1,0 +1,46 @@
+/* .div-padre{
+    display: flex;
+    height: 1000px;
+    width: auto;
+} */
+.titulo{
+    margin: 1% 3% 1% 3%;
+    padding: 1% 3% 1% 3%;
+    font-size: 40px;
+    text-align: center;
+    background-color:#ced6e0 ;
+    border-radius: 15px;
+    
+}
+
+.btn-outline-primary {
+    margin-top: 31px;
+    margin-left: 10%;
+    width: 80%;
+}
+
+
+.container{
+    margin: 5% 5% 5% 5%;
+}
+
+.btn-outline-success{
+    margin-top: 31px;
+    width: 100%;
+    margin-right: 60%;
+}
+
+/* #btn-total{
+    width: 50%;
+    margin-left: 25%;
+} */
+
+#total{
+    text-align: center;
+    margin-top:3%;
+    margin-left: 20%;
+    width: 50%;
+    background-color: #b8e994;
+    border: 1px black;
+    border-radius: 15px;
+}

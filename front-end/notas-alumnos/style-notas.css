@@ -1,0 +1,24 @@
+.container{
+    margin: 2% 5% 5% 5%;
+    background-color:#f5f6fa;
+    width: 80%;
+    padding: 1% 2% 1% 2%;
+    border-radius: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.h1{
+    text-align: center;
+    padding: 0% 1% 2% 1%;
+}
+
+.btn.btn-outline-primary{
+    margin-top: 18%;
+}
+
+h2{
+    visibility: hidden;
+} 
+
+.ver{
+    visibility: visible;
+}

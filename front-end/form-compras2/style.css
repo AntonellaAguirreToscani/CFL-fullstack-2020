@@ -1,0 +1,46 @@
+.container{
+    border-radius: 12px;
+    background-color: #dfe6e9;
+    margin-top: 2%;
+}
+.btn.btn-outline-primary{
+    margin-top: 18%;
+}
+.btn.btn-outline-success{
+    margin-top: 18%;
+}
+.btn.btn-outline-warning{
+    margin-top: 18%;
+}
+.btn.btn-outline-danger{
+    margin-top: 18%;
+}
+.titulo{
+    margin: 2% 0% 4% 0%;
+    width: 100%;
+    text-align: center;
+    border-radius: 12px;
+    padding: 1% 1% 1% 1%;
+    background-color: #b2bec3;
+}
+
+h2{
+    visibility: hidden;
+}
+
+h3{
+    visibility: hidden;
+    text-align: center; 
+    background-color: #55efc4;
+    margin-left: 35%;
+    width: 30%;
+    border-radius: 12px;
+}
+.ver {
+    visibility: visible;
+}
+#total{
+    text-align: center;
+  
+}
+
