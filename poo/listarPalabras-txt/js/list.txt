@@ -1,0 +1,1 @@
+dentro de este txt hay un texto que voy a convertir en arreglo
