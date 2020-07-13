@@ -1,0 +1,5 @@
+Bmw,X5,2019,JSR446,100000,Antonella
+Chevrolet,Camaro,2020,HBF330,100200,Javier
+Fiat,Palio,2015,VGF123,110300,Debora
+Fiat,Uno,2010,ABA567,190999,Nestor
+Chevrolet,Cruze,2017,MIP501,101545,Bernardo
