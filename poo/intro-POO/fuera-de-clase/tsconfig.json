@@ -10,6 +10,7 @@
     "forceConsistentCasingInFileNames": true  /* Disallow inconsistently-cased references to the same file. */
   },
   "files": [
-    "./archivos/regAutomotor.ts"
+    "./archivos/regAutomotor.ts",
+    "./archivos/matriz.ts"
   ]
 }
