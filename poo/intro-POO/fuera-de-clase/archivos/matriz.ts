@@ -1,13 +1,17 @@
 class Matriz{  
+    private columnas:number;
     private matriz:number[][];
 
-    constructor(){
+    constructor(_columnas:number){
+        this.columnas=_columnas;
         this.matriz=[];
     }
     
-    public agregarFila(value1:number,value2:number){
-        this.matriz.push([value1,value2]);
-    }
+    public agregarFila(fila:number[]){
+        if(fila.length==this.columnas){
+            this.matriz.push(fila);
+        }
+    } 
 
     public consultarElemento(X:number,Y:number){
      return this.matriz[X][Y];
@@ -15,11 +19,11 @@ class Matriz{
 }
    
 
-let matriz=new Matriz();
+let matriz=new Matriz(5);
 
-matriz.agregarFila(2,3);
-matriz.agregarFila(4,5);
-console.log(matriz.consultarElemento(1,0));
+matriz.agregarFila([2,4,6,7,3]);
+matriz.agregarFila([1,5,9,10,5]);
+console.log(matriz);
 
 
 
