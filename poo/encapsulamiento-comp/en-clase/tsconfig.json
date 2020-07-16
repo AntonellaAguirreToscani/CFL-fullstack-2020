@@ -10,6 +10,7 @@
     "forceConsistentCasingInFileNames": true  /* Disallow inconsistently-cased references to the same file. */
   },
   "files": [
-    "./televisor.ts"
+    "./televisor.ts",
+    "./auto.ts"
   ]
 }
