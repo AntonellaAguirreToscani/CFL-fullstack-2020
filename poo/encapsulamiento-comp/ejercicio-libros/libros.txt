@@ -1,0 +1,3 @@
+1001,El Principito,Indice,10,250,Antoine de Saint-Exupéry,10987543,08-23-1950,Novelas,7,1500
+1002,Aprende a Programar1,Para Arrancar..,4,150,Wainewright Max,29000134,11-01-1989,Didactico,3,1099
+1003,Historias de Divan,Psicoalisis (Indice),11,301,Gabriel Rolon,32123567,03-01-1978,Psicologia,1200
