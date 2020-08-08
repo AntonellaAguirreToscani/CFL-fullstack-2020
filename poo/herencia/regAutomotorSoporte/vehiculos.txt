@@ -1,0 +1,3 @@
+1,JSR446,03214565,Pirelli,30,Pirelli,30,Pirelli,30,Michellin,30,Ford Focus,3,Aguirre Antonella
+2,ABA112,07653354,Michellin,20,Michellin,20,Honda Wave
+3,ACC001,09876543,Pirelli,100,Pirelli,100,Pirelli,100,Michellin,100,Pirelli,100,Pirelli,100,Pirelli,100,Michellin,100,Volvo A40,Empresa Alimenticia S.A
