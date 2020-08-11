@@ -10,7 +10,6 @@ export class DeportistaProfesional extends Persona {
         this.dietaSaludable = true;
     }
     public correr(): number {
-        let metrosMinuto: number=0;
-       return (this.entrenamientoDiario==true && this.dietaSaludable==true)? metrosMinuto=150:metrosMinuto=100;
+       return (this.entrenamientoDiario==true && this.dietaSaludable==true)? 150: 100;
     }
 }

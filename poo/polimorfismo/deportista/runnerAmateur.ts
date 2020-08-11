@@ -6,8 +6,7 @@ export class RunnerAmateur extends Persona{
     }
 
     public correr(): number {
-        let metrosMinuto: number;
-       return (this.capacidadCorrer==true)?metrosMinuto=100:metrosMinuto=50;
+       return (this.capacidadCorrer==true)? 100: 50;
     }
 
 }

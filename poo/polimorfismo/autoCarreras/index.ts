@@ -6,7 +6,7 @@ class Auto{
     public constructor(_patente:string,_marcaModelo:string,_cambioActual?:number){
         this.patente=_patente;
         this.marcaModelo=_marcaModelo;
-        (_cambioActual==null||_cambioActual==undefined)?this.cambioActual=1:this.cambioActual=_cambioActual;
+        this.cambioActual= (_cambioActual==null||_cambioActual==undefined)? 1 : _cambioActual;
         
     }
 

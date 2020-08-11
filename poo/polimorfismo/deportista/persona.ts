@@ -8,7 +8,6 @@ export class Persona{
     }
 
     public correr():number{
-        let metrosMinuto: number;
-        return (this.capacidadCorrer==true)?metrosMinuto=50:metrosMinuto=0;
+        return (this.capacidadCorrer==true)? 50: 0;
     }
 }
