@@ -23,6 +23,7 @@ var Telefono = /** @class */ (function () {
     Telefono.prototype.cargarBateria = function (minutos) {
         if (minutos >= 100)
             throw new Error('No se puede cargar mas de 100%');
+        // throw new CustomError('No se puede cargar mas de 100%');
         for (var i = 0; i < minutos; i++) {
             this.bateriaActual++;
         }
@@ -57,6 +58,12 @@ var TelefonoRadio = /** @class */ (function (_super) {
     };
     return TelefonoRadio;
 }(Telefono));
+// class CustomError extends Error{
+//     public constructor(message?:string){
+//         super(message);
+//         this.name = CustomError.name;
+//     }
+// }
 var telefonoModerno = new TelefonoCamara();
 var telefonoRetro = new TelefonoRadio();
 try {

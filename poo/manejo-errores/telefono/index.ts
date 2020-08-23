@@ -13,7 +13,7 @@ class Telefono{
     public cargarBateria(minutos:number):void{
        if (minutos >= 100)
         throw new Error('No se puede cargar mas de 100%');
-        
+        // throw new CustomError('No se puede cargar mas de 100%');
         for(let i:number=0;i<minutos;i++){
             this.bateriaActual++;
         }  
@@ -47,10 +47,14 @@ class TelefonoRadio extends Telefono{
         this.frecuenciaActual + 10;
     } 
 }
-
+// class CustomError extends Error{
+//     public constructor(message?:string){
+//         super(message);
+//         this.name = CustomError.name;
+//     }
+// }
 let telefonoModerno: TelefonoCamara = new TelefonoCamara();
 let telefonoRetro: TelefonoRadio = new TelefonoRadio();
-
 
 try {
    telefonoModerno.cargarBateria(101);
