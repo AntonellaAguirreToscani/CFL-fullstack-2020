@@ -1,0 +1,14 @@
+1) NPM es un manejador de paquetes (Node Package Manager) por lo tanto es posible:
+    + INSTALAR LIBRERIAS-DEPENDENCIAS
+    + DESINSTALARLAS
+    + ACTUALIZARLAS
+2) El principal beneficio de utilizar un lenguaje Fuertemente Tipado, como lo es Typescript, es disminuir errores.
+    Ya que estos NO permiten violaciones de los tipos de datos, es decir si una variable/parametro por ej, es de tipo string,
+    no se podrá usar como si fuese de otro tipo.
+3) Una variable interna es una variable que solo se podrá utilizar dentro de su contexto. ej: dentro de una clase.
+4) Composicion: Como bien indica su nombre: COMPONE: "forma parte","tiene".  ej: un Auto esta compuesto (entre otras cosas) por un motor:
+                                                                            en codigo: la clase Motor Compone la clase Auto.
+    UNA O MAS DE UNA CLASE ESTA/N DENTRO DE OTRA!                                                                        
+   Herencia: Cuando una clase NUEVA se crea a partir de una clase ya existente, heredando todas sus propiedades/
+   metodos.
+                                                                  
