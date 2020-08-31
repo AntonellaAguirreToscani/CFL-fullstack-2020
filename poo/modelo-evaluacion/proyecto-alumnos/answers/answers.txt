@@ -1,0 +1,15 @@
+1) Task en npm sirve para correr el codigo que contenga el/los archivos especificados en el Script.
+2) Al correr el comando tsc lo que sucede es una Transpilacion/Compilacion :
+    Todo el codigo que programamos en typescript, se "copia" en un nuevo archivo pero en otro lenguaje: JavaScript.
+     ej: typescript.ts se compila a javascript.js
+3) Una clase esta organizada primero con su nombre, luego declarando sus Propiedades/Estados, constructor y por ultimo
+    metodos. (PUEDE Q ALGUNO NO SEA NECESARIO DEPENDIENDO COMO SE UTILICE LA CLASE).    
+4) No es correcto que un Método Auxiliar dentro de una Clase sea publico, debe ser Protected ya que este solo deberia ser
+    utilizado dentro de esta clase.
+5) Una Interface se utiliz para un mejor mantenimiento del Codigo a futuro y una mejor organizacion.
+    La idea es abstraerse y lograr definir o plantear metodos que luego serán implementados en otra/s clase/s.
+6) Para definir un nuevo Error en typescript se puede llamar a throw Error en la parte de nuestro codigo que sea
+    necesario, y hacer un try catch de este mismo. O tambien se puede crear una clase de errores de manera personalizada.
+
+
+   
