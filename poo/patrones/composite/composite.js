@@ -24,19 +24,17 @@ var CarpetaComposite = /** @class */ (function () {
         this.nombre = (_nombre == null || _nombre == undefined) ? 'Sin Especificar' : _nombre;
         this.contenido = [];
     }
-    // no funciona!!
     CarpetaComposite.prototype.buscarContenido = function (archivo) {
         return this.contenido.reduce(function (obj, item) {
             if (item.getNombre() == archivo) {
                 obj = item;
             }
-            return item;
+            return obj;
         }, {});
     };
     CarpetaComposite.prototype.getContenido = function () {
         return this.contenido;
     };
-    //no funciona!!
     CarpetaComposite.prototype.setContenido = function (lineaBuscada, texto, nombreArchivo) {
         this.buscarContenido(nombreArchivo).setContenido(lineaBuscada, texto);
     };
@@ -60,5 +58,5 @@ carpeta.agregarArchivo(archivo1);
 carpeta.agregarArchivo(archivo2);
 carpeta.agregarCarpeta(carpetaDiagrama);
 carpetaDiagrama.agregarArchivo(archivo3);
-// carpeta.setContenido('primer linea', 'HOLA MUNDO!', 'archivo1.txt');
-// console.log(carpeta.buscarContenido('archivo1.txt'));
+console.log(carpeta.setContenido('primer linea', 'HOLA MUNDO!', 'archivo1.txt'));
+console.log(carpeta.getContenido());

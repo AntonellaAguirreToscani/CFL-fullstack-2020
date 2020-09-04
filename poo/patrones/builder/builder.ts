@@ -59,10 +59,11 @@ class AutoAssembly{
     public setCarBuilder(car: CarBuilder): void {
         this._car= car;
     }
-    public get car(): CarBuilder {
-        return this.car;
+    public getCar(): CarBuilder {
+        return this._car;
     }
     public constructCar(): void {
+        this._car.createVehicle();
        this._car.buildQuantityDoors();
         this._car.buildMotor();
         this._car.buildDesing();
@@ -75,9 +76,9 @@ let cityCar : CarBuilder = new ChevroletCorsa();
 let Factory : AutoAssembly = new AutoAssembly();
 
 Factory.setCarBuilder(sportCar);
-console.log(Factory.constructCar());
+Factory.constructCar();
 
-console.log(Factory);
+console.log(Factory.getCar());
 
 
 

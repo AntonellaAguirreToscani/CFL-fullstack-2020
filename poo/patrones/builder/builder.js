@@ -78,14 +78,11 @@ var AutoAssembly = /** @class */ (function () {
     AutoAssembly.prototype.setCarBuilder = function (car) {
         this._car = car;
     };
-    Object.defineProperty(AutoAssembly.prototype, "car", {
-        get: function () {
-            return this.car;
-        },
-        enumerable: false,
-        configurable: true
-    });
+    AutoAssembly.prototype.getCar = function () {
+        return this._car;
+    };
     AutoAssembly.prototype.constructCar = function () {
+        this._car.createVehicle();
         this._car.buildQuantityDoors();
         this._car.buildMotor();
         this._car.buildDesing();
@@ -96,8 +93,8 @@ var sportCar = new FerrariF1();
 var cityCar = new ChevroletCorsa();
 var Factory = new AutoAssembly();
 Factory.setCarBuilder(sportCar);
-console.log(Factory.constructCar());
-console.log(Factory);
+Factory.constructCar();
+console.log(Factory.getCar());
 // class VehicleBuilder{
 //     private _wheel:number;
 //     private motor:boolean;
