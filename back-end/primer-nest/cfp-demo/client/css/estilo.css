@@ -1,0 +1,13 @@
+.container{
+    padding: 1% 2% 1% 2%;
+    border-radius: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.titulo{
+    border-radius: 10px;
+    align-items: center;
+    color:#2f3640;
+    background-color:#eb3b5a;
+    padding: 0% 1% 1% 1%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
